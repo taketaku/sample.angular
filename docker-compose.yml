@@ -7,4 +7,5 @@ services:
     volumes:
       - ./:/workspace
     ports:
-      - "3000:3000"
+      - "4200:4200"
+    command: npm run start
